@@ -1,0 +1,33 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+public class User {
+   private String nama;
+   private String noHandphone;
+
+   public User() {
+   }
+
+   public String getNama() {
+      return this.nama;
+   }
+
+   public void setNama(String var1) {
+      this.nama = var1;
+   }
+
+   public String getNoHandphone() {
+      return this.noHandphone;
+   }
+
+   public void setNoHandphone(String var1) {
+      this.noHandphone = var1;
+   }
+
+   public void registerUser() {
+      if (this.nama != null && this.noHandphone != null) {
+         System.out.println("Registration Successful!");
+         System.out.println("Name: " + this.nama);
+         System.out.println("Phone Number: " + this.noHandphone);
+      }
+
+   }
+}
